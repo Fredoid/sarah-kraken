@@ -1,2 +1,4 @@
 # sarah-kraken
-Plugin S.A.R.A.H de Kraken.com
+S.A.R.A.H  Plugin for Kraken.com
+
+Currently in development. To be soon...

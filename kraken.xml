@@ -1,14 +1,14 @@
-<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleMeteo" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
-  <rule id="ruleMeteo" scope="public">
-    <example>Sarah quelle est la météo pour demain ?</example>
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleKraken" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleKraken" scope="public">
+    <example>Sarah combien j'ai de bitcoin</example>
     <tag>out.action=new Object(); </tag>
     
     <item>Sarah</item>
     
     <one-of>
-      <item>quelle est la météo</item>
+		<item>combien j'ai de bitcoin<tag>out.action.a="bitcoincount";</tag></item>
     </one-of>
     
-    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/kraken";</tag>
+    <tag>out.action._attributes.uri<="http://127.0.0.1:8080/sarah/kraken";</tag>
   </rule> 
 </grammar>

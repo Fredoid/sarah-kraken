@@ -1,7 +1,7 @@
 {
   "modules" : { 
     "kraken"  : {
-      "description": "Kraken.com's API Client",
+      "description": "S.A.R.A.H Plugin for Kraken.com",
       "version": "1.0"
     }
   }
