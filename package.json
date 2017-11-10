@@ -1,0 +1,24 @@
+{
+  "name": "kraken",
+  "version": "1.0.0",
+  "description": "Kraken.com's API Client",
+  "main": "kraken.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fredoid/sarah-kraken.git"
+  },
+  "keywords": [
+    "S.A.R.A.H",
+    "Kraken",
+    "Kraken.com"
+  ],
+  "author": "Frédéric JEANPIERRE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fredoid/sarah-kraken/issues"
+  },
+  "homepage": "https://github.com/Fredoid/sarah-kraken#readme"
+}

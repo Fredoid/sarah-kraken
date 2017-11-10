@@ -1,0 +1,8 @@
+{
+  "modules" : { 
+    "kraken"  : {
+      "description": "Kraken.com's API Client",
+      "version": "1.0"
+    }
+  }
+}
